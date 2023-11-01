@@ -75,6 +75,8 @@ main .perfis {
 }
 
 main .perfil {
+    transition: transform 0.3s ease; /* Adiciona uma transição suave para a transformação */
+    overflow: hidden;
     font-size: 24px;
     background-color: #F3F1F1;
     width: 600px;
@@ -123,4 +125,7 @@ main .informacoes {
     margin-top: 50px;
    color: #DCA34B;
    font-family: GFS Didot;
+}
+.perfil:hover{
+    transform: scale(1.1);
 }
